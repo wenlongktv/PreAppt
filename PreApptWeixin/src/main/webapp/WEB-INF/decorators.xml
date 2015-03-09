@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/WEB-INF/decorator">
+	<!-- Any urls that are excluded will never be decorated by Sitemesh -->
+	<excludes webapp="/">
+		<pattern>login*</pattern>
+		<pattern>*css</pattern>
+		<pattern>*js</pattern>
+		<pattern>*png</pattern>
+		<pattern>*jpg</pattern>
+		<pattern>*alipay*</pattern>
+	</excludes>
+	
+	<decorator name="mainwx" page="mainwx.jsp">
+		<pattern>/weixin/*</pattern>
+	</decorator>
+	
+	<decorator name="main" page="main.jsp">
+		<pattern>/admin/*</pattern>
+	</decorator>
+</decorators>
