@@ -1,0 +1,6 @@
+{"Success":true,"Msg":"查询成功!","schedulelist":{"hid":1, "contentId":"6","contentTitle":"28周产检","time_list":[{"doctor_id":"LDW002","appt_date":"2014-10-22","appt_time":"08:40","doctor_name":""盖铭英"},
+{"doctor_id":"LDW002","appt_date":"2017-10-24","appt_time":"08:10","doctor_name":"盖铭英"},
+{"doctor_id":"LDW002","appt_date":"2017-10-25","appt_time":"08:10","doctor_name":"盖铭英"},
+{"doctor_id":"LDAD162","appt_date":"2014-10-28","appt_time":"10:30","doctor_name":"王敬玲"},
+{"doctor_id":"LDW003","appt_date":"2014-10-23","appt_time":"08:20","doctor_name":"吴连方"},
+{"doctor_id":"LDW204","appt_date":"2014-10-25","appt_time":"09:40","doctor_name":"刘海元"}]}}
