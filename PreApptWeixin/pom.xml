@@ -43,12 +43,6 @@
     </profiles>
 
 	<dependencies>
-        <dependency>
-            <groupId>oracle</groupId>
-            <artifactId>ojdbc</artifactId>
-            <version>6</version>
-        </dependency>
-
 		<!-- Apache 相关通用三方包 -->
         <dependency>
             <groupId>commons-logging</groupId>
