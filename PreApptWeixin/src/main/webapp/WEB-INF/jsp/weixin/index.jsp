@@ -1,83 +1,63 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
-<head><title>首页</title></head>
+<head>
+<title>首页</title>
+<style> 
+li.card {
+margin:10px;
+}
+</style>
+</head>
 <body>
-    <div class="wrapper">
-        <!-- list1 start -->
-        <div class="ui-tab">
-            <ul class="ui-tab-nav ui-border-b">
-                <li class="current">热门推荐</li>
-                <li>全部表情</li>
-                <li>表情</li>
-            </ul>
-            <ul class="ui-tab-content">
-                <li>
-                    <ul class="ui-list ui-list-link ui-border-b">  
-                        <li>
-                            <div class="ui-list-thumb ui-avatar-s">
-                               <span style="background-image:url(http://icase.tencent.com/vlabs/img/?100*100)"></span>
-                            </div>
-                            <div class="ui-list-info ui-border-t">
-                                <h4>标题标题标题标题标题标题标题标题标题标题标题</h4>
-                                <p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="ui-list-thumb ui-avatar-s">
-                                <span  style="background-image:url(http://icase.tencent.com/vlabs/img/?100*100)"></span>
-                            </div>
-                            <div class="ui-list-info ui-border-t">
-                                <h4>标题标题标题标题标题标题标题标题标题标题标题</h4>
-                                <p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
-                          </div>
-                        </li>
-                        <li>
-                            <div class="ui-list-thumb ui-avatar-s">
-                                <span  style="background-image:url(http://icase.tencent.com/vlabs/img/?100*100)"></span>
-                            </div>
-                            <div class="ui-list-info ui-border-t">
-                                <h4>标题标题标题标题标题标题标题标题标题标题标题</h4>
-                                <p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
-                          </div>
-                        </li>
-                        <li>
-                            <div class="ui-list-thumb ui-avatar-s">
-                                <span  style="background-image:url(http://icase.tencent.com/vlabs/img/?100*100)"></span>
-                            </div>
-                            <div class="ui-list-info ui-border-t">
-                                <h4>标题标题标题标题标题标题标题标题标题标题标题</h4>
-                                <p>内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
-                          </div>
-                        </li>
-                    </ul>
-                    <div class="ui-loading-wrap">
-                        <p>加载中</p>
-                        <i class="ui-loading"></i>
-                    </div>
-                </li>
-                <li>内容二</li>
-                <li>内容三</li>
-            </ul>
-        </div>
-    </div>
-     <script src="http://i.gtimg.cn/vipstyle/frozenjs/lib/zepto.min.js?_bid=304"></script>
-    <script src="http://i.gtimg.cn/vipstyle/frozenjs/1.0.1/frozen.js?_bid=304"></script>
-    <script>
-       (function() {
-
-            var tab = new fz.Scroll('.ui-tab', {
-                role: 'tab',
-                autoplay: true,
-                interval: 3000
-            });
-
-            tab.on('beforeScrollStart', function(from, to) {
-                console.log(from, to);
-            });
-
-            tab.on('scrollEnd', function(curPage) {
-                console.log(curPage);
-            });
-
-        })();
-    </script>
+	<div class='top'>
+	<h2 class="top ui-border-b">
+		<a href="index.html" class="ui-arrowlink">Frozen UI</a>辅助类 
+		<a class="ui-btn" href="http://frozenui.github.io/">回frozen首页</a>
+	</h2>
+	</div>
+	
+	<div style='margin-top:50px'>
+		<ul class="ui-list ui-list-text ui-border-tb">
+		    <li class="ui-border-t">
+		    	<div class='panel-in'> 
+					<div class='row'>
+						<div class='col-2'>妇科</div>
+						<div class='col-2'>医生：李晓华</div>
+					</div>
+					<div class='row'>
+						<h3>2014年12月13日    上午</h3>  
+					</div>
+					<div class='row'>
+						<div class='col-2'><h2>12号</h2></div>
+						<div class='col-2'></div>
+					</div>
+				</div>
+			</li>
+			
+			<li class="ui-border-t">
+		    	<div class='panel-in'> 
+					<div class='row'>
+						<div class='col-2'>妇科</div>
+						<div class='col-2'>医生：李晓华</div>
+					</div>
+					<div class='row'>
+						<h3>2014年12月13日     上午</h3>  
+					</div>
+					<div class='row'>
+						<div class='col-2'><h2>12号</h2></div>
+						<div class='col-2'></div>
+					</div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	
+<div class='bottom'>
+	<div class='row'>
+		<div class='col-4'><button id='startAppt' class="ui-btn ui-btn-icon-top" style='height:50px; width:100%'>新建预约<span class='ui-icon'>+</span></button></div>
+		<div class='col-4'><button id='inspect' class="ui-btn ui-btn-icon-top" style='height:50px; width:100%'>检查报告<span class='ui-icon'>+</span></button></div>
+		<div class='col-4'><button id='visit' class="ui-btn ui-btn-icon-top" style='height:50px; width:100%'>就诊记录<span class='ui-icon'>+</span></button></div>
+		<div class='col-4'><button id='apptRecords' class="ui-btn ui-btn-icon-top" style='height:50px; width:100%'>预约记录<span class='ui-icon'>+</span></button></div>
+	</div>
+</div>
+	
 </body>

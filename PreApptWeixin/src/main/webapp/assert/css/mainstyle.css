@@ -1,0 +1,119 @@
+@CHARSET "UTF-8";
+body {
+	background-color: #0493D7;
+	font-family: font-family : ge-inspira, Helvetica, 微软雅黑, Arial,
+		sans-serif;
+}
+
+div.divide {
+	height: 1px;
+	width: 100%;
+	background: #cccccc;
+	overflow: hidden;
+}
+
+div.row {
+	float: left;
+	width: 100%;
+	margin-top:5px;
+	clear:both;
+}
+
+div.col-2 {
+	float: left;
+	width: 50%;
+	display: block;
+}
+div.col-4 {
+	float: left;
+	width: 25%;
+	display: block;
+}
+div.col {
+	width: 100%;
+	display: block;
+}
+
+h2 {
+	font-size: 30px;
+	color: #0493D7;
+	vertical-align:text-bottom;
+}
+
+h2.toolbartitle {
+	font-size: 18px;
+	color: #000;
+}
+
+h3 {
+	font-size: 22px;
+	color: #0493D7;
+}
+
+h1 {
+	font-size: 18px;
+	vertical-align:text-bottom;
+}
+
+ul.selectlist li {
+	position: relative;
+	border-bottom: solid 1px #CCC;
+	background-color: #fff;
+}
+
+ul.selectlist li a {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	-webkit-background-size: 45px 14px;
+}
+
+/* 布局类 */
+.panel-wrap {
+    border:1px solid #cccccc;
+    -webkit-box-shadow: 2px 2px 2px #cccccc;
+    -webkit-border-radius: 3px;
+    margin:10px;
+    margin-top: 50px;
+}
+
+.panel-in {
+    padding:10px;
+    width:100%;
+    background: #FFF;
+}
+
+.panel-in.p2 {
+	background: #E6F4FB;
+    width:auto;
+}
+
+div.top {
+	background-color: #fff;
+	z-index: 998;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	_position: absolute; /* for IE6 */
+	_top: expression(documentElement.scrollTop +  
+		 documentElement.clientHeight-this.offsetHeight); /* for IE6 */
+	overflow: visible;
+}
+
+div.bottom {
+	background-color: #fff;
+	z-index: 999;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	_position: absolute; /* for IE6 */
+	_top: expression(documentElement.scrollTop +  
+		 documentElement.clientHeight-this.offsetHeight); /* for IE6 */
+	overflow: visible;
+}
