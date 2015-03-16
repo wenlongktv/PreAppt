@@ -59,5 +59,12 @@ margin:10px;
 		<div class='col-4'><button id='apptRecords' class="ui-btn ui-btn-icon-top" style='height:50px; width:100%'>预约记录<span class='ui-icon'>+</span></button></div>
 	</div>
 </div>
+
+<script>
+$(function() {
+	alert(111);
+	$('#startAppt').tap(function() {window.location.href='hospital';});
+});
+</script>
 	
 </body>
