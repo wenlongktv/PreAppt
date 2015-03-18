@@ -62,7 +62,6 @@ margin:10px;
 
 <script>
 $(function() {
-	alert(111);
 	$('#startAppt').tap(function() {window.location.href='hospital';});
 });
 </script>
