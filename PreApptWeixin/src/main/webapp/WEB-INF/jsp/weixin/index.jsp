@@ -9,13 +9,14 @@ margin:10px;
 </head>
 <body>
 	<div class='top'>
-	<h2 class="top ui-border-b">
-		<a href="index.html" class="ui-arrowlink">Frozen UI</a>辅助类 
-		<a class="ui-btn" href="http://frozenui.github.io/">回frozen首页</a>
-	</h2>
+	<div class="title1 ui-border-b ui-center">
+		<a class="ui-btn to_l" href="http://frozenui.github.io/">前</a>
+		<a class="ui-btn to_r" href="http://frozenui.github.io/">后</a>
+		<p>标题</p>
+	</div>
 	</div>
 	
-	<div style='margin-top:50px'>
+	<div style='margin-top:45px'>
 		<ul class="ui-list ui-list-text ui-border-tb">
 		    <li class="ui-border-t">
 		    	<div class='panel-in'> 
@@ -23,6 +24,7 @@ margin:10px;
 						<div class='col-2'>妇科</div>
 						<div class='col-2'>医生：李晓华</div>
 					</div>
+					<div style='clear:both'></div>
 					<div class='row'>
 						<h3>2014年12月13日    上午</h3>  
 					</div>
@@ -63,6 +65,7 @@ margin:10px;
 <script>
 $(function() {
 	$('#startAppt').tap(function() {window.location.href='hospital';});
+	$('#visit').tap(function() {window.location.href='visit';});
 });
 </script>
 	

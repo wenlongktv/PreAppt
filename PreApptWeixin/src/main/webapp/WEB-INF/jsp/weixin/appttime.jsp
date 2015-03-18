@@ -26,7 +26,7 @@ margin:10px;
 	</div>
 <script>
 $(function(){
-$('.select').tap(function() {window.location.href='department'; } );
+$('.select').tap(function() {window.location.href='apptInfo'; } );
 });	
 </script>
 </body>
