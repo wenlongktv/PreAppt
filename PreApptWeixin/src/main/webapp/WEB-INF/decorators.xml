@@ -10,11 +10,11 @@
 		<pattern>*alipay*</pattern>
 	</excludes>
 	
-	<decorator name="mainwx" page="mainwx.jsp">
+	<decorator name="main_wx" page="mainwx.jsp">
 		<pattern>/weixin/*</pattern>
 	</decorator>
 	
-	<decorator name="main" page="main.jsp">
+	<decorator name="main_admin" page="mainadmin.jsp">
 		<pattern>/admin/*</pattern>
 	</decorator>
 </decorators>

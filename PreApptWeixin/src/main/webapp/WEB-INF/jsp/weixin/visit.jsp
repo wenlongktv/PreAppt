@@ -8,7 +8,6 @@ margin:10px;
 </style>
 </head>
 <body>
-	
 	<div>
 		<ul class="ui-list ui-list-text ui-border-tb">
 			<li class="ui-border-t">

@@ -1,4 +1,4 @@
-package com.inc.appt.web.controller;
+package com.inc.appt.web.controller.weixin;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
